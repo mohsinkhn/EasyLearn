@@ -1,7 +1,7 @@
 # EasyLearn
 This repository is for Auto Machine learning project in collaboration with Happiest Minds.
 
-**The idea behind this project is to provide utilities to data scientist for quick prototyping of machine learning models. The utilities should provide levels of automation from generating single model in one command to having function transformation of a column in data.**
+**The idea behind this project is to provide utilities to data scientist for quick prototyping of machine learning models. The utilities should provide varying levels of automation from generating single model in one command to having function transformation of a column in data.**
 
 Following are guiding principles for this repository:
  1. Easy integration with `pandas`, `sklearn`, `numpy` and `scipy`
@@ -9,12 +9,14 @@ Following are guiding principles for this repository:
  
 The whole project will be broken down into 3 folder:
  1. **data_preprocessing_utils**:
+    Some examples of modules in this category are:
     * Imputation techniques
     * Column filtering (remove columns with zero variance, all NA's etc)
     * Preprocessing unstructured data (text features)
     * Converting categoricals text data to numerical labels (To be consistent with sklearn)
     
- 2. **feature_engineering**:
+ 2. **feature_engineering**
+    Some examples of modules in this category are:
     * Log, quantile and scale transformations examples
     * Target encoding for Categoricals
     * Aggregation features for categoricals
@@ -23,6 +25,7 @@ The whole project will be broken down into 3 folder:
     * Ratio features selection and recommendation
     
  3. **model_selection_ensemble**:
+    Some examples of modules in this category are:
     * Select GBM, Linear model and a MLP and perform bayesian hyper-parameter tuning
     * Train meta-stacker on out of fold results of different models
     
