@@ -1,7 +1,7 @@
 # EasyLearn
 This repository is for Auto Machine learning project in collaboration with Happiest Minds.
 
-**The idea behind this project is to provide utilities to data scientist for quick prototyping of machine learning models. The utilities should provide levels of automation from generating single model in one command to having function transformation of a column in data. **
+**The idea behind this project is to provide utilities to data scientist for quick prototyping of machine learning models. The utilities should provide levels of automation from generating single model in one command to having function transformation of a column in data.**
 
 Following are guiding principles for this repository:
  1. Easy integration with `pandas`, `sklearn`, `numpy` and `scipy`
