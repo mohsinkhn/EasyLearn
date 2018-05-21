@@ -29,6 +29,7 @@ The whole project will be broken down into 3 folder:
     * Select GBM, Linear model and a MLP and perform bayesian hyper-parameter tuning
     * Train meta-stacker on out of fold results of different models
     
+The master will contain end-to-end modules
     
 For python scripting guidelines, please follow this link:
 https://www.python.org/dev/peps/pep-0008/
