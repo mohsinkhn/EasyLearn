@@ -35,8 +35,9 @@ For python scripting guidelines, please follow this link:
 https://www.python.org/dev/peps/pep-0008/
 
 Always run pylint on your code before you commit. It will help others benefit from your code.
-
-
 For guidelines specific to each section, refer to guidelines in that folder.
+
+*Coming Soon: A repository with examples of where EasyLearn has been used*
+
  
  
