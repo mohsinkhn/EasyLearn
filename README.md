@@ -1,43 +1,24 @@
-# EasyLearn
-This repository is for EasyLearn, a framework to automate repeatable parts of machine learning.
+# AutoML
+This repository is for AutoML, a framework to automate repeatable parts of machine learning.
 
-This initiative was started @Happiest Minds for automating Machine Learning
+__**Short Term Goal**__: Develop/Leverage independent modules to automate machine learning parts which we regularly do in our projects
 
-**The idea behind this project is to provide utilities to data scientist for quick prototyping of machine learning models. The utilities should provide varying levels of automation from generating single model in one command to having function transformation of a column in data.**
+__**Long term Goal**__: To be able to build good baseline models (output along with code for training and scoring) with a single command
 
-Following are guiding principles for this repository:
- 1. Easy integration with `pandas`, `sklearn`, `numpy` and `scipy`
- 2. Strike a balance between having too much automation and no automation
+**The idea behind this project is to provide utilities to data scientist for quick prototyping of machine learning models. The utilities should provide varying levels of automation from generating single model in one command to having simple modules for transformation of data.**
  
-The whole project will be broken down into 3 folder:
- 1. **data_preprocessing_utils**:
-    Some examples of modules in this category are:
-    * Imputation techniques
-    * Column filtering (remove columns with zero variance, all NA's etc)
-    * Preprocessing unstructured data (text features)
-    * Converting categoricals text data to numerical labels (To be consistent with sklearn)
-    
- 2. **feature_engineering**
-    Some examples of modules in this category are:
-    * Log, quantile and scale transformations examples
-    * Target encoding for Categoricals
-    * Aggregation features for categoricals
-    * Groupby aggregations
-    * Auto selection of interaction features based on shallow random forest
-    * Ratio features selection and recommendation
-    
- 3. **model_selection_ensemble**:
-    Some examples of modules in this category are:
-    * Select GBM, Linear model and a MLP and perform bayesian hyper-parameter tuning
-    * Train meta-stacker on out of fold results of different models
-    
-The master will contain end-to-end modules
+The whole project will be broken down into 6 sub-categories:
+ 1. **Auto EDA**
+ 2. **Auto Impute**
+ 3. **Auto Transform**
+ 4. **Auto Feature**
+ 5. **Auto Model**
+ 6. **Auto Post Process**
+
     
 For python scripting guidelines, please follow this link:
 https://www.python.org/dev/peps/pep-0008/
 
-Always run pylint on your code before you commit. It will help others benefit from your code.
-For guidelines specific to each section, refer to guidelines in that folder.
 
 *Coming Soon: A repository with examples of where EasyLearn has been used*
 
